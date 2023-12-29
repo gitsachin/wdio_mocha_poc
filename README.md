@@ -24,8 +24,11 @@ All the test spec files are located inside the test/specs folder
 
 ## Reporter
 
-To open the Allure reports, execute:
-`npm report`
+To generate the Allure report, execute:
+`npm run report-generate`
 
-To  run test and open the Allure reports once the tests are executed, execute:
-`test-with-report`
+To open the Allure reports, execute:
+`npm run report`
+
+To  run test, generate report and open the report once the tests are executed, execute:
+`npm run test-with-report`
